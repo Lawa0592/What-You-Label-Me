@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/00_corridor.unity
+    guid: 9fc0d4010bbf28b4594072e72b8655ab
+  - enabled: 1
+    path: Assets/Scenes/01_kid_reality.unity
+    guid: 01960c48c37931a458909788297fba07
+  - enabled: 1
+    path: Assets/Scenes/02_kid_inner.unity
+    guid: d72e25efbb6832543a4b2341f0d14731
+  - enabled: 1
+    path: Assets/Scenes/03_school_reality.unity
+    guid: 9c1601a8de7c3b542978104f73842dac
+  - enabled: 1
+    path: Assets/Scenes/04_school_inner.unity
+    guid: b2b7e00c15cef7640879d6024f7b7200
+  - enabled: 1
+    path: Assets/Scenes/05_work_reality.unity
+    guid: 7710bbea329f6104e988f05ff3f18d1b
+  - enabled: 1
+    path: Assets/Scenes/06_work_inner.unity
+    guid: 5e4147ee5d845c14087883b1ec467d02
+  - enabled: 1
+    path: Assets/Scenes/07_family_reality.unity
+    guid: 3465357c50264d743b7daa21924e6ed0
+  - enabled: 1
+    path: Assets/Scenes/08_family_inner.unity
+    guid: f993627b951b4784bb7a8336719d107f
+  m_configObjects: {}
