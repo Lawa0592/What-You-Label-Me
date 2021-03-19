@@ -1,5 +1,6 @@
 ﻿using UnityEngine;
 /*
+[Using in scene '08_family_inner']
 Introduction:
 This script is responsible for managing the process of family period's inner world
 */

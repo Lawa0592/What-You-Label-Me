@@ -1,6 +1,7 @@
 ﻿using UnityEngine;
 using TMPro;
 /*
+[Using in scene '05_work_reality']
 Introduction:
 This script is responsible for managing the process of workplace's story 1
 */

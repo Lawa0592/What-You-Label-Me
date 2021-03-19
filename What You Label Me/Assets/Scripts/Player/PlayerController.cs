@@ -1,6 +1,7 @@
 ﻿using UnityEngine;
 
 /*
+[Using in scene '00_corridor']
 Introduction:
 */
 

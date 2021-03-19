@@ -1,5 +1,6 @@
 ﻿using UnityEngine;
 /*
+[Using in scene '04_school_inner']
 Introduction:
 This script is responsible for managing the process of high school's inner world
 */

@@ -1,5 +1,6 @@
 ﻿using UnityEngine;
 /*
+[Using in scene '06_work_inner']
 Introduction:
 This script is responsible for managing the process of working period's inner world
 */

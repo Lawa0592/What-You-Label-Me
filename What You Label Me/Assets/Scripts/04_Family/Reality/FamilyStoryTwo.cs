@@ -1,6 +1,7 @@
 ﻿using UnityEngine;
 using TMPro;
 /*
+[Using in scene '07_family_reality']
 Introduction:
 This script is responsible for managing the process of family's story 2
 */

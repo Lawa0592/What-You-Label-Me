@@ -2,6 +2,7 @@
 using System.Linq;
 using UnityEngine;
 /*
+[Using in scene '00_corridor']
 Introduction:
 This script is responsible for
 */

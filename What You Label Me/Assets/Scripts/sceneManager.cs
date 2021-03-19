@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine.SceneManagement;
 /*
+[Using in scene '00_corridor']
 Introduction:
 This script is responsible for receiving the request for the changing scenario and executing it
 */

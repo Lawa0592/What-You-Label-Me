@@ -1,5 +1,6 @@
 ﻿using UnityEngine;
 /*
+[Using in scene '06_work_inner']
 Introduction:
 This script is responsible for controlling first person perspective and movement in work_inner
 */

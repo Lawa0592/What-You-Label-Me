@@ -1,6 +1,7 @@
 ﻿using UnityEngine;
 using TMPro;
 /*
+[Using in scene '03_school_reality']
 Introduction:
 This script is responsible for managing the process of high school's story 1
 */

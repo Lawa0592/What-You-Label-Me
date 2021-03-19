@@ -1,5 +1,6 @@
 ﻿using UnityEngine;
 /*
+[Using in scene '01_Kid_inner']
 Introduction:
 This script is responsible for controlling the movement & shooting of Wheel's Launcher
 */

@@ -1,6 +1,7 @@
 ﻿using UnityEngine;
 using TMPro;
 /*
+[Using in scene '00_corridor']
 Introduction:
 This script is responsible for listening to what happens when the player approaches the door one
 1. Switch scene to scene '01_kid_reality'

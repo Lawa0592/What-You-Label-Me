@@ -2,6 +2,7 @@
 using TMPro;
 
 /*
+[Using in scene '01_Kid_reality']
 Introduction:
 This script is responsible for managing the process of childhood's story 2
 */

@@ -1,5 +1,6 @@
 ﻿using UnityEngine;
 /*
+[Using in scene '04_school_inner']
 Introduction:
 This script is responsible for controlling first person perspective and movement
 */

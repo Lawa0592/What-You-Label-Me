@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 /*
-[Using in scene '02_school_inner']
+[Using in scene '04_school_inner']
 Introduction:
 This script is responsible for showing each visual effect of cube in Maze
 */
