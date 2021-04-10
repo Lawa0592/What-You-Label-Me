@@ -8,6 +8,7 @@ This script is responsible for
 */
 public class GameManager : MonoBehaviour
 {
+    public static bool canPlayerMove;  //the state in which the player can move
     public static bool isDoor1Locked;  //the lock state of door one(kid)
     public static bool isDoor2Locked;  //the lock state of door two(school)
     public static bool isDoor3Locked;  //the lock state of door three(work)
@@ -25,6 +26,8 @@ public class GameManager : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        //Set the default value of the player moving state when game starting
+        canPlayerMove = true;
         //Set the default value of the door lock state when game starting
         isDoor1Locked = false;
         isDoor2Locked = true;
@@ -122,5 +125,13 @@ public class GameManager : MonoBehaviour
             //sending message to SceneManager to change the scene
             GameObject.Find("_Scene Manager").SendMessage("SceneReceiver", "08_family_inner");
         }
+    }
+    /*
+        [FUNCTION] 
+        change player moving state
+    */
+    public static void setPlayerMovingState(bool booleanValue)
+    {
+        canPlayerMove = booleanValue;
     }
 }

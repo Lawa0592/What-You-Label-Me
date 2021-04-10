@@ -39,7 +39,7 @@ public class PlayerController : MonoBehaviour
         //add gravity as time go through
         playerVelocity.y += gravityValue * Time.deltaTime;
         controller.Move(playerVelocity * Time.deltaTime);
-        
+
         /*
             [FUNCTION] 
             Controlling player's movement by using Horizontal & Vertical
@@ -47,12 +47,12 @@ public class PlayerController : MonoBehaviour
         float horizontal = Input.GetAxisRaw("Horizontal");  //Get the status of Horizontal
         float vertical = Input.GetAxisRaw("Vertical");     //Get the status of Vertical
         Vector3 inputDir = new Vector3(horizontal, 0.0f, vertical).normalized;  //Get the direction vectors entered by Horizontal and Vertical
-        //when input direction vector has length, that means player can only be moved when there is a continuous parameter input
-        if(inputDir.magnitude >= 0.1f)
+                                                                                //when input direction vector has length, that means player can only be moved when there is a continuous parameter input
+        if (inputDir.magnitude >= 0.1f)
         {
             //calculate the angle between current orientation and next moving orientation
             float targetAngle = Mathf.Atan2(inputDir.x, inputDir.z) * Mathf.Rad2Deg + mainCam.transform.eulerAngles.y;  //<-- always go forward in the direction where the main camera is pointing
-            //the direction vector that moves horizontally in the world
+                                                                                                                        //the direction vector that moves horizontally in the world
             moveDir = Quaternion.Euler(0.0f, targetAngle, 0.0f) * Vector3.forward;
             //moving according to the direction
             controller.Move(moveDir * movingSpeed * Time.deltaTime);
@@ -63,18 +63,18 @@ public class PlayerController : MonoBehaviour
             transform.rotation = Quaternion.Euler(0.0f, rotationAngle, 0.0f);
 
             //active walk animation
-            playerAnimator.SetBool("isWalking",true);
+            playerAnimator.SetBool("isWalking", true);
         }
         else
         {
             //disable walk animation, and switch back to idle animation
             playerAnimator.SetBool("isWalking", false);
         }
-  
+        
         /*
             [FUNCTION] 
             Switch camera between view when moving and view when having conversation
-        */ 
+         
         if (Input.GetKeyDown(KeyCode.Return))
         {
             if(isCamFocused)
@@ -89,7 +89,7 @@ public class PlayerController : MonoBehaviour
                 focusCam.SetActive(false);
                 isCamFocused = !isCamFocused;
             }
-        }
+        }*/
         
     }
 }
